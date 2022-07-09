@@ -1,10 +1,10 @@
 from email import parser
 from fastapi import FastAPI, Depends, status, HTTPException
 from yaml import parse
-from database import engine, SessionLocal
-import tabela
+from database.database import engine, SessionLocal
+import tabela.tabela as tabela
 from sqlalchemy.orm import Session
-import schema
+import schema.schema as schema
 
 tabela.Base.metadata.create_all(engine)
 

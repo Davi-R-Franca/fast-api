@@ -1,6 +1,6 @@
 #Criando a tabela do banco de dados
 
-from database import Base
+from database.database import Base
 from sqlalchemy import Column, Integer, String
 
 class Usuario(Base):
