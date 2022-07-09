@@ -6,6 +6,7 @@ colorama==0.4.5
 ecdsa==0.18.0
 fastapi==0.78.0
 greenlet==1.1.2
+gunicorn==20.1.0
 h11==0.13.0
 idna==3.3
 passlib==1.7.4
